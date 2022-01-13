@@ -1,0 +1,1 @@
+from mlp_cnn import generator, mlp
