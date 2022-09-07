@@ -91,12 +91,13 @@ def compute_quality(batch_size,test_num_s, test_num_e,level,generatornet):
         ssim2 += _ssim2
 
         print(_psnr1,_psnr2,_mse1,_mse2,_ssim1,_ssim2)
-    psnr1 *= 0.1
-    psnr2 *= 0.1
-    mse1 *= 0.1
-    mse2 *= 0.1
-    ssim1 *= 0.1
-    ssim2 *= 0.1
+    sum_num=round(1/(test_num_e-test_num_s+1),2)
+    psnr1 *= sum_num
+    psnr2 *= sum_num
+    mse1 *= sum_num
+    mse2 *= sum_num
+    ssim1 *= sum_num
+    ssim2 *= sum_num
 
     print(psnr1,psnr2,mse1,mse2,ssim1,ssim2)
 
