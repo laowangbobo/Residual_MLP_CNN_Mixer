@@ -2,11 +2,19 @@
 PyTorch implementation of *Denoising of 3D MR images using a voxel-wise hybrid residual MLP-CNN model to improve small lesion diagnostic confidence*.
 
 To appear in 25th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI 2022).
-[[publication]]() [[arxiv]]()
+
+[[publication]](https://link.springer.com/chapter/10.1007/978-3-031-16437-8_28) [[arxiv]](https://arxiv.org/abs/2209.13818)
 
 If this work is useful to you, please cite our paper:
 ```
-@article
+@inproceedings{yang2022denoising,
+  title={Denoising of 3D MR Images Using a Voxel-Wise Hybrid Residual MLP-CNN Model to Improve Small Lesion Diagnostic Confidence},
+  author={Yang, Haibo and Zhang, Shengjie and Han, Xiaoyang and Zhao, Botao and Ren, Yan and Sheng, Yaru and Zhang, Xiao-Yong},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={292--302},
+  year={2022},
+  organization={Springer}
+}
 ```
 ## Requirements
 - Python 3.9.5
